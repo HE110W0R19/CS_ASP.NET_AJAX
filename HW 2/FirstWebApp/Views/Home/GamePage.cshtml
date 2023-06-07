@@ -1,0 +1,49 @@
+﻿@model FirstWebApp.Models.TicTacToeModel
+@{
+    ViewData["Title"] = "Game Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hello, @Model.playerName</h1>
+    <table class="TicTacToe-Board">
+        <tr>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[0]"></input>
+            </td>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[1]"></input>
+            </td>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[2]"></input>
+            </td>
+        </tr>
+        <tr>
+           <td>
+               <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[3]"></input>
+            </td>
+            <td>
+               <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[4]"></input>
+            </td>
+            <td>
+               <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[5]"></input>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[6]"></input>
+            </td>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[7]"></input>
+            </td>
+            <td>
+                <input class="TicTacToeButton" type="submit" value="@Model.boardRandom[8]"></input>
+            </td>
+        </tr>
+    </table>
+    <form method="post" asp-area="" asp-controller="Home" asp-action="GamePage">
+    <input type="submit" value="Refresh"/>
+    <input type="hidden" name="playerName" value="@Model.playerName"></input>
+    <button id="Finish-Button">Finish game</button>
+    </form>
+
+</div>

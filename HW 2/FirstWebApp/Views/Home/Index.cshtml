@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Registry Page";
+}
+
+<h2>Hello</h2>
+
+<form method="post" asp-area="" asp-controller="Home" asp-action="GamePage">
+    <div>
+        <div>
+           Write your name:
+        </div>
+        <input class="name-input" type="text" value="" id="playerName" name="playerName"></input>
+     <button type="submit">Start</button>
+    </div>
+</form>
