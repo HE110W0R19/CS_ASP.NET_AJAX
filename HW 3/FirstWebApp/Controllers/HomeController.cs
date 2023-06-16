@@ -15,6 +15,7 @@ namespace FirstWebApp.Controllers
 
         public IActionResult Index()
         {
+            staticBoardModel.restart();
             return View("Index");
         }
 
