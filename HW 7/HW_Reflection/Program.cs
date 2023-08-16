@@ -19,6 +19,9 @@ class Program
         //Task 3
         ChangebleTask3 task3 = new ChangebleTask3();
         Task3_Checker(changer, ref task3);
+
+        ChangebleTask4 task4 = new ChangebleTask4();
+        changer.AttributeOnClass_Task4(task4);
     }
     public static void Task1_Checker(Changing changer, ref ChangebleTask1 task1)
     {

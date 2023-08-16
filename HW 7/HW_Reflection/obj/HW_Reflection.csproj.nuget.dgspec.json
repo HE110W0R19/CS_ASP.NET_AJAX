@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj": {}
+    "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\ДЗ 7\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj": {
+    "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\ДЗ 7\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj",
+        "projectUniqueName": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\ДЗ 7\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj",
         "projectName": "HW_Reflection",
-        "projectPath": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj",
+        "projectPath": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\ДЗ 7\\HW_Reflection\\HW_Reflection\\HW_Reflection.csproj",
         "packagesPath": "C:\\Users\\TuF\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\HW_Reflection\\HW_Reflection\\obj\\",
+        "outputPath": "C:\\Users\\TuF\\Desktop\\P\\ШАГ\\ДЗ ШАГ\\ДЗ ASP.NET (C#)\\ДЗ 7\\HW_Reflection\\HW_Reflection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TuF\\AppData\\Roaming\\NuGet\\NuGet.Config",

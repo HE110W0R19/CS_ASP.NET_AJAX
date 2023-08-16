@@ -13,3 +13,18 @@ C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\HW_Reflection\HW_Ref
 C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.pdb
 C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.genruntimeconfig.cache
 C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\HW_Reflection\HW_Reflection\obj\Debug\net7.0\ref\HW_Reflection.dll
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\bin\Debug\net7.0\HW_Reflection.exe
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\bin\Debug\net7.0\HW_Reflection.deps.json
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\bin\Debug\net7.0\HW_Reflection.runtimeconfig.json
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\bin\Debug\net7.0\HW_Reflection.dll
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\bin\Debug\net7.0\HW_Reflection.pdb
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.csproj.AssemblyReference.cache
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.AssemblyInfoInputs.cache
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.AssemblyInfo.cs
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.csproj.CoreCompileInputs.cache
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.dll
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\refint\HW_Reflection.dll
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.pdb
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\HW_Reflection.genruntimeconfig.cache
+C:\Users\TuF\Desktop\P\ШАГ\ДЗ ШАГ\ДЗ ASP.NET (C#)\ДЗ 7\HW_Reflection\HW_Reflection\obj\Debug\net7.0\ref\HW_Reflection.dll

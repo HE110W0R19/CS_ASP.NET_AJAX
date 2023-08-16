@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace HW_Reflection
 {
-    [AttributeUsage(AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Field | AttributeTargets.Class, AllowMultiple = true, Inherited = true)]
     internal class MyModifiedAttribute : Attribute
     {
-        /// <summary>
-        /// Stub
-        /// </summary> 
+        public Type? TargetType { get; set; } = null;
+        public object? TargetModificationValue { get; set; } = null;
     }
 }

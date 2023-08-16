@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HW_Reflection
+﻿namespace HW_Reflection
 {
     internal class Changing
     {
@@ -13,10 +7,10 @@ namespace HW_Reflection
             var type = someClass.GetType();
             var fields = type.GetFields(
                 System.Reflection.BindingFlags.NonPublic |
-                System.Reflection.BindingFlags.Static | 
+                System.Reflection.BindingFlags.Static |
                 System.Reflection.BindingFlags.Instance);
 
-            foreach ( var field in fields )
+            foreach (var field in fields)
             {
                 field.SetValue(someClass, (field.GetValue(someClass) as int?) * 2);
             }
@@ -73,6 +67,74 @@ namespace HW_Reflection
                                 field.SetValue(someClass, (field.GetValue(someClass) as string) + "/Broken/");
                                 break;
                         }
+                    }
+                }
+            }
+        }
+
+        public void AttributeOnClass_Task4(object someClass)
+        {
+            var type = someClass.GetType();
+
+            var fields = type.GetFields(System.Reflection.BindingFlags.NonPublic |
+                System.Reflection.BindingFlags.Instance |
+                System.Reflection.BindingFlags.Static);
+
+            object[] attrs = type.GetCustomAttributes(true);
+
+            foreach (var attr in attrs)
+            {
+                MyModifiedAttribute MyAtr = attr as MyModifiedAttribute;
+                if (MyAtr != null)
+                {
+                    switch (MyAtr.TargetType.Name.ToLower())
+                    {
+                        case "int32":
+                            if (MyAtr.TargetModificationValue.ToString().ToLower() == "add 10")
+                            {
+                                foreach (var field in fields)
+                                {
+                                    switch (field.GetValue(someClass))
+                                    {
+                                        case int _:
+                                            field.SetValue(someClass, (field.GetValue(someClass) as int?) + 10);
+                                            break;
+                                    }
+                                }
+                            }
+                            break; 
+
+                        case "string":
+                            if (MyAtr.TargetModificationValue.ToString().ToLower() == "add broken")
+                            {
+                                foreach (var field in fields)
+                                {
+                                    switch (field.GetValue(someClass))
+                                    {
+                                        case string _:
+                                            field.SetValue(someClass, (field.GetValue(someClass) as string) + "/Broken/");
+                                            break;
+                                    }
+                                }
+                            }
+                            break;
+
+                        case "boolean":
+                            if (MyAtr.TargetModificationValue.ToString().ToLower() == "inversion")
+                            {
+                                foreach (var field in fields)
+                                {
+                                    switch (field.GetValue(someClass))
+                                    {
+                                        case bool _:
+                                            field.SetValue(someClass, !(field.GetValue(someClass) as bool?));
+                                            break;
+                                    }
+                                }
+                            }
+                            break;
+                        default:
+                            break;
                     }
                 }
             }
